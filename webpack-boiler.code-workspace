@@ -11,6 +11,7 @@
 		],
 		"git.ignoreLimitWarning": true,
 		"better-comments.highlightPlainText": true,
-		"jsFileHeader.Author": "Cliff Crerar"
+		"jsFileHeader.Author": "Cliff Crerar",
+		"workbench.colorTheme": "Monokai"
 	}
 }
