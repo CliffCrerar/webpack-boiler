@@ -1,6 +1,6 @@
 # Webpack starter app
 
-![Webpack quick starer](https://cdn-cloudflare.ga.s3.amazonaws.com/assets/misc/wp-boiler.png)
+![Webpack quick starer](https://cdn-cloudflare.ga/assets/misc/wp-boiler.png)
 
 ## Preconfiguration with:
 ```
