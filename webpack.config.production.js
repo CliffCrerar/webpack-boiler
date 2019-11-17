@@ -3,6 +3,7 @@ const common = require('./webpack.config.common.js');
 const CompressionPlugin = require('compression-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const webpack =require('webpack');
 const path = require('path');
 module.exports = merge(common, {
 	mode: 'production',
