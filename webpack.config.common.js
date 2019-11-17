@@ -28,7 +28,7 @@ module.exports = {
 		})
 	],
 	output: {
-		filename: '[name].bundle.js',
+		filename: '[name].source.js',
 		path: path.resolve(__dirname, 'public'),
 	},
 	module: {

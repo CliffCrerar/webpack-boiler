@@ -1,1 +1,0 @@
-Boilerplate with only webpack components and webpack dev server and express middleware dev server.
