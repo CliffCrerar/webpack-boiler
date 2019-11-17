@@ -7,7 +7,7 @@ Boilerplate with:
 	css-loader: 3.2.0
 	csv-loader: 3.0.2
 	file-loader: 4.2.0
-	html-webpack-plugin: 3.2.0</code>
+	html-webpack-plugin: 3.2.0
 	mini-css-extract-plugin: 0.8.0
 	node-sass: 4.13.0
 	sass: 1.23.6
