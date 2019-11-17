@@ -1,6 +1,7 @@
 # Webpack starter app
 
 Boilerplate with:
+```
 	clean-webpack-plugin: 3.0.0
 	compression-webpack-plugin: 3.0.0
 	css-loader: 3.2.0
@@ -19,6 +20,7 @@ Boilerplate with:
 	webpack-manifest-plugin": 2.2.0 
 	webpack-merge: 4.2.2 
 	xml-loader: 1.2.1
+```
 
 get the app: `git clone https://github.com/CliffCrerar/webpack-boiler.git`;
 
