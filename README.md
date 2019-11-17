@@ -1,6 +1,8 @@
 # Webpack starter app
 
-Boilerplate with:
+![Webpack quick starer](https://cdn-cloudflare.ga.s3.amazonaws.com/assets/misc/wp-boiler.png)
+
+## Preconfiguration with:
 ```
 	clean-webpack-plugin: 3.0.0
 	compression-webpack-plugin: 3.0.0
@@ -22,13 +24,23 @@ Boilerplate with:
 	xml-loader: 1.2.1
 ```
 
+## Different configurations
+
+|Config file|Phase used in|
+|-|-|
+|`webpack.config.common`| `development mode` and `production version` |
+|`webpack.config.development`| `Development mode`|
+|`webpack.config.production`| `Production version` |
+
+## How it works
+
 get the app: `git clone https://github.com/CliffCrerar/webpack-boiler.git`;
 
-start dev server:
+start in `development mode`:
 
 `npm run dev`
 
-build production version:
+build `production version`:
 
 `npm run build`
 
