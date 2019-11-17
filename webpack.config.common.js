@@ -22,12 +22,14 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			title: require('./package.json').name,
 		}),
-		new ManifestPlugin()
-
+		new ManifestPlugin(),
+		new webpack.EnvironmentPlugin({
+			// define environment vars
+		})
 	],
 	output: {
 		filename: '[name].bundle.js',
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'public'),
 	},
 	module: {
 		rules: [
