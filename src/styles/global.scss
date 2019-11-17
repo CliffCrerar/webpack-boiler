@@ -1,0 +1,61 @@
+/**
+	Global Styles
+*/
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+$backgroundColor: #2b3b42;
+
+html,
+body {
+  font-family: Muli;
+  background: $backgroundColor;
+}
+
+.ia-logo{
+	position: absolute;
+	display: block;
+	img{
+		position: relative;
+		display: block;
+		width: 100px;
+		border-radius: 7px;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		-ms-border-radius: 7px;
+		-o-border-radius: 7px;
+}
+}
+
+main {
+  display: block;
+  max-width: 600px;
+  width: 100vw;
+  margin: auto;
+  h1,
+  h2 {
+    text-align: center;
+  }
+  h1,
+  h2,
+  h3 {
+    color: white;
+  }
+  img {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+}
+
+.webpacked {
+	display: block;
+  padding: 20px;
+  background: black;
+  code {
+	  font-family: Fira Code;
+	  font-size: 1em;
+    display: block;
+    color: white;
+    
+  }
+}
