@@ -1,5 +1,3 @@
-# Webpack starter app
-
 ![Webpack quick starer](https://cdn-cloudflare.ga/assets/misc/wp-boiler.png)
 
 ## Preconfiguration with:
